@@ -35,6 +35,36 @@ int Second_Largest_element(int arr[] , int n){
 }
 
 
+int Second_Smallest_Element(int arr[] , int n ){
+
+     if(n == 0){
+        cout <<"There is No element in Array ";
+        return 0;
+    }
+
+
+    int first_mini = INT_MAX; 
+
+    for(int i=0; i<n; i++){
+
+        if(arr[i] < first_mini){
+            first_mini = arr[i];
+        }
+    }
+
+    int second_mini = INT_MAX;
+
+    for(int i=0; i<n; i++){
+        if(arr[i] < second_mini && arr[i] != first_mini){
+            second_mini = arr[i];
+        }
+    }
+
+    return second_mini;
+
+}
+
+
 int main(){
 
     int n;
@@ -63,7 +93,12 @@ int main(){
     int second_lar_ele = Second_Largest_element(arr , n);
 
 
-    cout << endl << "Second Largest Element in Array is :"<< second_lar_ele <<endl;
+    cout << endl << "Second Largest Element in Array is : "<< second_lar_ele <<endl;
+
+
+    int second_small_ele = Second_Smallest_Element(arr , n);
+
+    cout << "Second Smallest element is : " << second_small_ele << endl;
 
     return 0;
 
