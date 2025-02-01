@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 
-
 // Do this code later for the Interview Purpose Okay 
 // This program is for you have given a string you have to reverse the vowels only 
 // so in this program  a , e , i , o , u if you have you have to reverse it that 
@@ -32,8 +31,6 @@ int main(){
     string s;
     cout << "Enter the String : ";
     cin >> s;
-
-
     int start = 0 ,  end = s.size()-1;
 
 
