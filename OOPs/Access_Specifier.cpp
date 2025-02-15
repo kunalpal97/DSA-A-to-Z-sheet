@@ -28,14 +28,26 @@ class Book{
     }
 };
 
+class NewBook : public Book {
+
+    public:
+    void match(){
+
+        a = 10;
+        // b = 88;   in accessible in this class because it is mark as private
+        c = 22;
+    }
+
+};
+
 
 int main(){
 
     Book obj;
 
     obj.a = 10;
-    // obj.b = 10;
-    // obj.c = 52;
+    // obj.b = 10;  // in accessible out side the class 
+    // obj.c = 52;   // protected specifier is also in accessible out side the class
 
     obj.test();
 
