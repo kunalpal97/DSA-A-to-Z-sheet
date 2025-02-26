@@ -7,7 +7,7 @@ using namespace std;
 // run time polymorphism also known as Dynamic polymorphism
 
 // its can be achived using the function overriding -> ye kya hota wo tuje pata function with same name and parameter 
-//one is present in parent class other is present in child class
+// one is present in parent class other is present in child class
 
 
 class A{

@@ -5,10 +5,7 @@ using namespace std;
 // function overloading is when two or more than two functions having same name but parameter is different is called as function overloading
 
 
-
-
 void display(int a , int b){
-
 
     cout << "a is " << a << endl <<"b is " << b <<endl;
 
