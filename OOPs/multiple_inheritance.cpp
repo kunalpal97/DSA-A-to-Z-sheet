@@ -9,7 +9,7 @@ class A{
     } 
 };
 
-class B : virtual public A{
+class B : public A{
 
     public:
     B(){
@@ -17,7 +17,7 @@ class B : virtual public A{
     }
 };
 
-class C : virtual public A{
+class C :  public A{
 
     public:
     C(){

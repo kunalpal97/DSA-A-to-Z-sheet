@@ -9,7 +9,6 @@ int solve(int arr[], int n, int amt)
     for (int i = 0; i < n; i++)
     {
         amt = amt - arr[i];
-
         if (amt < 0)
         {
             break;

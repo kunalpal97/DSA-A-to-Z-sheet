@@ -62,7 +62,7 @@ int main(){
 
     int min_ans = min_element(arr , n);
 
-    cout << "Minimum Element in array is " << min_ans <<endl;
+    cout << "Minimum Element in array is : " << min_ans <<endl;
 
     return 0;
 }

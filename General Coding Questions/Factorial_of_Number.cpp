@@ -7,7 +7,6 @@ int main(){
     int n;
     cout <<"Enter the Number : ";
     cin >> n;
-
     int ans = 1;
     for(int i=1; i<=n; i++){
         ans = ans * i;
