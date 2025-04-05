@@ -46,9 +46,8 @@ int main(){
 
     cout << b1.Author_name << endl;
 
-    cout << b1.
+    cout << b1.Book_name << endl;
 
     return 0;
-
 
 }

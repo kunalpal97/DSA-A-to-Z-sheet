@@ -47,7 +47,7 @@ int main(){
 
     obj.a = 10;
     // obj.b = 10;  // in accessible out side the class 
-    // obj.c = 52;   // protected specifier is also in accessible out side the class
+    // obj.c = 52;   // protected specifier is also in accessible out side the class , 
 
     obj.test();
 
